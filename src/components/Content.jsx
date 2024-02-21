@@ -10,12 +10,12 @@ export const Content = () => {
         Web Developer & Data Scientist
       </span>
 
-      <div className="tracking-widest flex justify-center lg:w-5/12 sm:w-12 sm:px-5">
-        <h1>
+      <div className=" w-9/12 tracking-widest flex justify-center sm:w-5/12 sm:px-5">
+        <span className="">
           I craft engaging web experiences and seek hidden insights from data,
           always excited by the potential at their intersection. Let's connect
           and create!
-        </h1>
+        </span>
       </div>
       <button className=" font-semibold bg-gray-300 p-4 px-7 rounded-full shadow-lg">
         See my work &darr;
