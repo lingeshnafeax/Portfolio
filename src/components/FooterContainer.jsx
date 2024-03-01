@@ -14,10 +14,10 @@ export const FooterContainer = () => {
           <span className="block ml-3">wlingesh260@gmail.com</span>
         </a>
       </div>
-      <div className="flex font-semibold">
+      {/*<div className="flex font-semibold">
         <img className=" h-5 ml-5" src={phoneicon} alt="" />
         <span className="block ml-3">9943378508</span>
-      </div>
+      </div> */}
       <div className="flex font-semibold">
         <img className=" h-5 ml-5" src={linkedinicon} alt="" />
 

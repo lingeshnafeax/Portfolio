@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const Content = () => {
   return (
@@ -17,6 +18,7 @@ export const Content = () => {
           and create!
         </span>
       </div>
+
       <button className=" font-semibold bg-gray-300 p-4 px-7 rounded-full shadow-lg">
         See my work &darr;
       </button>
