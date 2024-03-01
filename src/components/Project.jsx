@@ -15,7 +15,7 @@ export const Project = (props) => {
         </h2>
         <p className=" font-serif mb-auto">{props.description}</p>
         <a href={props.link} target="blank">
-          <button className="block mt-5 bg-slate-400 px-9 py-2 rounded-full shadow-md font-semibold">
+          <button className="block mt-5 bg-slate-400 px-9 py-2 rounded-full shadow-md font-semibold transition duration-300 ease-linear hover:scale-105 hover:text-white">
             Link
           </button>
         </a>

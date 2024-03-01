@@ -19,7 +19,7 @@ export const Content = () => {
         </span>
       </div>
 
-      <button className=" font-semibold bg-gray-300 p-4 px-7 rounded-full shadow-lg">
+      <button className=" font-semibold bg-gray-300 p-4 px-7 rounded-full shadow-lg hover:translate-y-2 transition ease duration-300 hover:scale-105">
         See my work &darr;
       </button>
     </div>
