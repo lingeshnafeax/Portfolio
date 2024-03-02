@@ -1,12 +1,9 @@
 import React, { useContext } from "react";
 import { Project } from "./Project";
-import HousePrice from "../assets/placeholderlogo.jpg";
-import Diabetes from "../assets/diabetes.jpg";
-import CustomerSegmentation from "../assets/customersegmentation.png";
-import { Context } from "../AppContainer";
+import { useSelector } from "react-redux";
 
 export const ProjectContainer = () => {
-  const projects = useContext(Context);
+  const projects = useSelector((state) => state.project);
   return (
     <div>
       <h3 className="font-bold text-2xl mt-28 mx-9">PROJECTS</h3>
@@ -14,6 +11,7 @@ export const ProjectContainer = () => {
         {projects.map((project) => {
           return (
             <Project
+              key={project.id}
               id={project.id}
               name={project.name}
               imgsrc={project.imgsrc}
