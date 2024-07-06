@@ -1,4 +1,3 @@
-import React, { useContext } from "react";
 import { Project } from "./Project";
 import { useSelector } from "react-redux";
 

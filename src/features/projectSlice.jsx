@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import React from "react";
 import HousePrice from "../assets/placeholderlogo.jpg";
 import Diabetes from "../assets/diabetes.jpg";
 import CustomerSegmentation from "../assets/customersegmentation.png";
