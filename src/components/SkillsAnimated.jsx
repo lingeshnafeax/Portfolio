@@ -111,6 +111,7 @@ const CardPilling = ({ loop = true }) => {
     if (rectRef.current) {
       setRectHeight(rectRef.current.offsetHeight + margin);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [rectRef.current]);
 
   useEffect(() => {
