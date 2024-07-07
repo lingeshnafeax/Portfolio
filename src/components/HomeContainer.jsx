@@ -3,7 +3,7 @@ import { Content } from "./Content";
 import { SkillsContainer } from "./SkillsContainer";
 import { ProjectContainer } from "./ProjectContainer";
 import { FooterContainer } from "./FooterContainer";
-import React, { Fragment } from "react";
+import  { Fragment } from "react";
 
 const HomeContainer = () => {
   return (

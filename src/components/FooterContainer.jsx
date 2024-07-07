@@ -1,17 +1,16 @@
-import React from "react";
 import emailicom from "../assets/email.png";
-import phoneicon from "../assets/viber.png";
+// import phoneicon from "../assets/viber.png";
 import linkedinicon from "../assets/linkedin-logo.png";
 import githubicon from "../assets/github.png";
 
 export const FooterContainer = () => {
   return (
-    <div className=" mt-64 bg-slate-300 h-64 flex flex-col gap-y-3">
-      <h1 className=" text-2xl font-bold p-5 ">Contact me</h1>
+    <div className=" mt-32 bg-slate-200 h-56 flex flex-col gap-y-3">
+      <h1 className=" text-2xl font-bold p-5  ">Contact me</h1>
       <div className="flex items-center font-semibold">
         <img className=" h-5 ml-5" src={emailicom} alt="" />
         <a href="mailto:wlingesh260@gmail.com">
-          <span className="block ml-3">wlingesh260@gmail.com</span>
+          <span className="block ml-3 ">wlingesh260@gmail.com</span>
         </a>
       </div>
       {/*<div className="flex font-semibold">

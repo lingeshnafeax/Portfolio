@@ -78,13 +78,8 @@ const ExampleLoading = () => {
 
   return (
     <PageTransition isAnimating={isAnimating} setIsAnimating={setIsAnimating}>
-      <div className="h-96 flex items-center justify-center">
-        <button
-          onClick={handleButtonClick}
-          className="bg-slate-900 text-white px-4 py-2 rounded-lg hover:bg-slate-800"
-        >
-          Restart Loading Animation
-        </button>
+      <div className=" flex items-center justify-center">
+        <button onClick={handleButtonClick}>My Portfolio</button>
       </div>
     </PageTransition>
   );
@@ -92,7 +87,7 @@ const ExampleLoading = () => {
 
 function PageLoading() {
   return (
-    <div className="h-screen text-center py-20">
+    <div className="text-center">
       <ExampleLoading />
     </div>
   );
